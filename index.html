@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pastelaria Cafelândia</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/fontawesome.css">
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+
+    <body>
+        <section class="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg pl-0 pr-0">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/logo.png" width="160" class="img-logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+                        <span class="navbar-toggler-icon">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ml-auto mr-auto">
+                            <li class="nav-item">
+                                <a href="#reservas" class="nav-link"><b>Reserva</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#servicos" class="nav-link"><b>Serviços</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#cardapio" class="nav-link"><b>Cardapio</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#depoimentos" class="nav-link"><b>Depoimentos</b></a>
+                            </li>
+                        </ul>
+                        <a class="btn btn-white btn-icon">
+                            Meu Carrinho! <span class="icon">
+                                <i class="fa fa-shopping-bag"></i>
+                            </span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </section>
+
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="d-flex text-banner">
+                            <h1><b>Escolha seu sabor <b class="color-primary">favorito!</b></b></h1>
+                            <p>
+                                Escolha em nosso cardapio! E receba em sua casa de forma rapida e segura!.
+                            </p>
+                            <div>
+                                <a class="btn btn-yellow mt-4 mr-3">
+                                    Ver Cardapio
+                                </a>
+                                <a href="#" class="btn btn-white btn-icon-left mt-4">
+                                    <span class="icon-left">
+                                        <i class="fa fa-phone"></i>
+                                    </span>
+                                    (45) 3241-3279
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <a class="btn btn-sm btn-white btn-social mat-4 mr-3">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <a class="btn btn-sm btn-white btn-social mat-4 mr-3">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a class="btn btn-sm btn-white btn-social mat-4 mr-3">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="card-banner"></div>
+                        <div class="d-flex img-banner">
+                            <img src="./img/pastel-banner.png">
+                        </div>
+                        <div class="card card-case">
+                            "Entrega rapida e Pastel delicioso!
+                            <br>O pastel chegou quentinho e<br> 
+                            estava muito bom!"
+                            <span class="card-case-name">
+                                <b>Thiago Lopes</b>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="servicos" id="servicos">
+
+            <div class="background-servicos"></div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <span class="hint-title"><b>Serviços</b></span>
+                        <h1 class="title">
+                            <b>Como São Nossos Serviços ?</b>
+                        </h1>
+                    </div>
+
+                    <div class="col-4 mb-5">
+                        <div class="card-icon text-center">
+                            <img src="./img/icone-pedido.svg" width="150">
+                        </div>
+                        <div class="card-text text-center mt-3">
+                            <p><b>Facil de Pedir!</b></p>
+                            <span>
+                                Você precisa de poucos clicks para realizar seu pedido!
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="col-4 mb-5">
+                        <div class="card-icon text-center">
+                            <img src="./img/icone-delivery.svg" width="250">
+                        </div>
+                        <div class="card-text text-center mt-3">
+                            <p><b>Entrega Rapida!</b></p>
+                            <span>
+                                Nossa entrega é sempre pontual, rapida e segura!
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="col-4 mb-5">
+                        <div class="card-icon text-center">
+                            <img src="./img/icone-qualidade.svg" width="250">
+                        </div>
+                        <div class="card-text text-center mt-3">
+                            <p><b>Melhor Qualidade!</b></p>
+                            <span>
+                                Não so a rapidez na entrega, a qualidade tambem é o nosso forte!
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cardapio" id="cardapio">
+
+            <div class="background-cardapio"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <span class="hint-title"><b>Cardapio</b></span>
+                        <h1 class="title">
+                            <b>Conheça o nosso cardapio</b>
+                        </h1>
+                    </div>
+
+                    <div class="col-12 container-menu">
+                        <a class="btn btn-white btn-sm mr-3 active">
+                            <i class="fas fa-hamburger"></i>&nbsp; Pastel Especiais
+                        </a>
+                        <a class="btn btn-white btn-sm mr-3">
+                            <i class="fas fa-hamburger"></i>&nbsp; Pastel Salgado
+                        </a>
+                        <a class="btn btn-white btn-sm mr-3">
+                            <i class="fas fa-hamburger"></i>&nbsp; Pastel Doce
+                        </a>
+                        <a class="btn btn-white btn-sm mr-3">
+                            <i class="fas fa-hamburger"></i>&nbsp; Centos
+                        </a>
+                        <a class="btn btn-white btn-sm mr-3">
+                            <i class="fas fa-hamburger"></i>&nbsp; Lanches
+                        </a>
+                        <a class="btn btn-white btn-sm mr-3">
+                            <i class="fas fa-cocktail"></i>&nbsp; Bebidas
+                        </a>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="row" id="itensCardapio">
+                            <div class="col-3  mb-3">
+                                <div class="card card-item">
+                                    <div class="img-produto">
+                                        <img src="img/cardapio/burguers/burger-au-poivre-kit-4-pack.3ca0e39b02db753304cd185638dad518.jpg" />
+                                    </div>
+                                    <p class="title-produto text-center mt-4">
+                                        <b>X-Bacon</b>
+                                    </p>
+                                    <p class="price-produto text-center">
+                                        <b>R$ 15.00</b>
+                                    </p>
+                                    <div class="add-carrinho">
+                                        <span class="btn-menos"><i class="fas fa-minus"></i></span>
+                                        <span class="add-numero-itens">0</span>
+                                        <span class="btn-mais"><i class="fas fa-plus"></i></span>
+                                        <span class="btn btn-add"><i class="fas fa-shopping-bag"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3  mb-3">
+                                <div class="card card-item">
+                                    <div class="img-produto">
+                                        <img src="img/cardapio/burguers/burger-au-poivre-kit-4-pack.3ca0e39b02db753304cd185638dad518.jpg" />
+                                    </div>
+                                    <p class="title-produto text-center mt-4">
+                                        <b>X-Bacon</b>
+                                    </p>
+                                    <p class="price-produto text-center">
+                                        <b>R$ 15.00</b>
+                                    </p>
+                                    <div class="add-carrinho">
+                                        <span class="btn-menos"><i class="fas fa-minus"></i></span>
+                                        <span class="add-numero-itens">0</span>
+                                        <span class="btn-mais"><i class="fas fa-plus"></i></span>
+                                        <span class="btn btn-add"><i class="fas fa-shopping-bag"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3  mb-3">
+                                <div class="card card-item">
+                                    <div class="img-produto">
+                                        <img src="img/cardapio/burguers/burger-au-poivre-kit-4-pack.3ca0e39b02db753304cd185638dad518.jpg" />
+                                    </div>
+                                    <p class="title-produto text-center mt-4">
+                                        <b>X-Bacon</b>
+                                    </p>
+                                    <p class="price-produto text-center">
+                                        <b>R$ 15.00</b>
+                                    </p>
+                                    <div class="add-carrinho">
+                                        <span class="btn-menos"><i class="fas fa-minus"></i></span>
+                                        <span class="add-numero-itens">0</span>
+                                        <span class="btn-mais"><i class="fas fa-plus"></i></span>
+                                        <span class="btn btn-add"><i class="fas fa-shopping-bag"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3 mb-3">
+                                <div class="card card-item">
+                                    <div class="img-produto">
+                                        <img src="img/cardapio/burguers/burger-au-poivre-kit-4-pack.3ca0e39b02db753304cd185638dad518.jpg" />
+                                    </div>
+                                    <p class="title-produto text-center mt-4">
+                                        <b>X-Bacon</b>
+                                    </p>
+                                    <p class="price-produto text-center">
+                                        <b>R$ 15.00</b>
+                                    </p>
+                                    <div class="add-carrinho">
+                                        <span class="btn-menos"><i class="fas fa-minus"></i></span>
+                                        <span class="add-numero-itens">0</span>
+                                        <span class="btn-mais"><i class="fas fa-plus"></i></span>
+                                        <span class="btn btn-add"><i class="fas fa-shopping-bag"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 text-center">
+                        <a class="btn btn-white btn-sm">
+                            ver mais
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <section class="depoimentos" id="depoimentos">
+
+            <div class="background-depoimentos"></div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-5 text-center">
+                        <div class="card-depoimentos"></div>
+                        <div class="d-flex img-banner">
+                            <img src="./img/burguer.png" >
+                        </div>
+                    </div>
+                    
+                    <div class="col-7">
+                        <span class="hint-title"><b>Depoimentos</b></span>
+                        <h1 class="title">
+                            <b>O que dizem sobre nos ?</b>
+                        </h1>
+
+                        <div class="mb-5">
+                            <div class="depoimento" id="depoimento-1">
+                                <div class="container-dados-depoimento">
+                                    <div class="imagem-depoimento"></div>
+                                    <div>
+                                        <p class="nome-depoimento"><b>Diego Pereira</b></p>
+                                        <p class="nota-depoimento">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>&nbsp; <span>4.5</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="texto-depoimento">
+                                    <i class="fas fa-quote-left"></i>
+                                    <span>
+                                        Muito bom, recomendo demais! O pastel é muito bom, 
+                                        chegou no prazo certo
+                                    </span>
+                                    <i class="fas fa-quote-right"></i>
+                                </p>
+                            </div>
+
+                            <div class="depoimento hidden" id="depoimento-2">
+                                <div class="container-dados-depoimento">
+                                    <div class="imagem-depoimento"></div>
+                                    <div>
+                                        <p class="nome-depoimento"><b>Ana Beatriz</b></p>
+                                        <p class="nota-depoimento">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>&nbsp; <span>5.0</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="texto-depoimento">
+                                    <i class="fas fa-quote-left"></i>
+                                    <span>
+                                        Um experiencia gastronomica incrivel, pastel muito bom, lugar limpo e organaizado...
+                                        Super recomendo!
+                                    </span>
+                                    <i class="fas fa-quote-right"></i>
+                                </p>
+                            </div>
+
+                            <div class="depoimento hidden" id="depoimento-3">
+                                <div class="container-dados-depoimento">
+                                    <div class="imagem-depoimento"></div>
+                                    <div>
+                                        <p class="nome-depoimento"><b>João Gustavo</b></p>
+                                        <p class="nota-depoimento">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>&nbsp; <span>4.0</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="texto-depoimento">
+                                    <i class="fas fa-quote-left"></i>
+                                    <span>
+                                        O lanche estava muito bom, veio quentinho e o refrigerante estava gelado!
+                                    </span>
+                                    <i class="fas fa-quote-right"></i>
+                                </p>
+                            </div>
+                        </div>
+
+                        <a class="btn btn-sm btn-white btn-social mr-3 active">1</a>
+                        <a class="btn btn-sm btn-white btn-social mr-3">2</a>
+                        <a class="btn btn-sm btn-white btn-social">3</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="reserva" id="reservas">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card-secondary">
+                            <div class="row">
+                                <div class="col-7">
+                                    <span class="hint-title"><b>Reserva</b></span>
+                                    <h1 class="title">
+                                        <b>Quer reservar um horario?</b>
+                                    </h1>
+                                    <p class="pr-5">
+                                        Mande uma mensagem clicando no botão abaixo!
+                                        <br>
+                                        Reserve seu horario de forma simples e rapida!
+                                    </p>
+                                    <a class="btn btn-yellow mt-4">
+                                        Fazer Reserva!!!
+                                    </a>
+                                </div>
+
+                                <div class="col-5">
+                                    <div class="car-reserva"></div>
+                                    <div class="d-flex img-banner">
+                                        <img src="./img/icone-reserva.svg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 container-logo-footer">
+                        <img class="logo-footer" src="./img/logo.png">
+                    </div>
+
+                    <div class="col-6 container-texto-footer">
+                        <p class="mb-0">
+                            <b>Pastelaria Cafelândia</b>&copy; Todos os Direitos reservados
+                        </p>
+                    </div>
+
+                    <div class="col-3 container-redes-footer">
+                        <a class="btn btn-sm btn-white btn-social mr-3">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <a class="btn btn-sm btn-white btn-social mr-3">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a class="btn btn-sm btn-white btn-social mr-3">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="./js/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="./js/modernizr-3.5.0.min.js"></script>
+        <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./js/popper.min.js"></script>
+    </body>
+</html>
